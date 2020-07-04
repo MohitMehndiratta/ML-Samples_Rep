@@ -19,6 +19,7 @@ def prep_data(raw):
 
     out_x = x.reshape(num_shape, img_rows, img_cols, 1)
     out_x = out_x / 255
+    # print(out_x)
     return out_x, out_y
 
 
